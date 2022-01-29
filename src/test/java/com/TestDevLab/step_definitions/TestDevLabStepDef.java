@@ -13,8 +13,8 @@ import java.util.List;
 
 public class TestDevLabStepDef extends TestDevLabSteps {
 
-    @Given("The user clicks Part {int}")
-    public void theUserClicksPart(int arg0) {
+    @Given("The user clicks Part Four")
+    public void theUserClicksPartFour() {
         waitUntilElementClickable(TestDevLabAppPage.part4Button);
         click(TestDevLabAppPage.part4Button);
     }

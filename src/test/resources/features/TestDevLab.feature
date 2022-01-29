@@ -1,7 +1,7 @@
 @TestDevLab
 Feature: TestDevLab Clicking Checkboxes
   Background:
-    Given The user clicks Part 4
+    Given The user clicks Part Four
 
   @case1
   Scenario: User tries to click correctly for required checkboxes
